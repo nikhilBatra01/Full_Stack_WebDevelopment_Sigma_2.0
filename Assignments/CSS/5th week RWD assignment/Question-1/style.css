@@ -1,0 +1,77 @@
+.header{
+    border: 2px solid black;
+    height: 30vh;
+}
+.navbar{
+    border: 1px solid black;
+    background-color: #1b1a1a;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 5px;
+    /* grid-template-rows: repeat(1,1fr); */
+
+}
+.logo{
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+} 
+.logo1{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo2{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    margin: 20px 0px;
+    gap: 25px;
+   
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn1{
+    display: flex;
+    justify-content: end;
+    margin: 10px 30px;
+}
+.menu-toggle{
+    display: none;
+}
+button{
+    border: none;
+    width: 8vw;
+    height: 5vh;
+    background-color: #4747b6;
+    border-radius: 5px;
+    color: white;
+}
+@media screen and (max-width:576px) {
+    .links{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .navbar {
+        height: 15vh;
+    }
+    .menu-toggle{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .hamburger {
+        width: 20vw;
+    }
+}

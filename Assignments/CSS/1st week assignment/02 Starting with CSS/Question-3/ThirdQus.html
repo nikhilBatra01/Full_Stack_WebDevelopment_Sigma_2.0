@@ -1,0 +1,55 @@
+<!-- 3. Create a web page with a 5 tag similar to a navigation bar. Each link should change to different color when it is hovered color. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-3</title>
+    <style>
+        nav {
+            padding: 20px 0 20px 0;
+            border: 1px solid black;
+            background-color: #96cfe5;
+        }
+
+        nav>a {
+            color: #ffff;
+            margin: 25px;
+        }
+
+        nav>.bg-color:hover {
+            color: #515658;
+        }
+
+        nav>.bg-color2:hover {
+            color: #e44c4c;
+        }
+
+        nav>.bg-color3:hover {
+            color: #0000ff;
+        }
+
+        nav>.bg-color4:hover {
+            color: #c549c5;
+        }
+
+        nav>.bg-color5:hover {
+            color: #d8d83a;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a class="bg-color" href="#">Home</a>
+        <a class="bg-color2" href="#">About Us</a>
+        <a class="bg-color3" href="#">Contact</a>
+        <a class="bg-color4" href="#">Blog</a>
+        <a class="bg-color5" href="#">Login</a>
+    </nav>
+</body>
+
+</html>

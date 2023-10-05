@@ -1,0 +1,90 @@
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:black;
+    
+}
+.containerBox h1{
+    color: aliceblue;
+}
+.colorBox{
+    padding: 10px 0px;  
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows:repeat(2,1fr);
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.color1{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #8D3DAF;
+ 
+}
+.color2{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #E07C24;
+}
+.color3{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #758283;
+}
+.color4{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #E03B8B;
+}
+.color5{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #FF6666;
+}
+.color6{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #03C6C7;
+}
+.color7{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #CAD5E2;
+}
+.color8{
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #35BDD0;
+}

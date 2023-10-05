@@ -1,0 +1,31 @@
+body{
+    background-color: #423e3e;
+}
+h1{
+    color: #0000ff;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 40px;
+}
+strong{
+    background-color: #5f5fd4;
+    color: #faebd7;
+    font-size: 22px;
+}
+img{
+    width: 20px;
+    height: 10px;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: #003cff;
+    font-weight: bold;
+    font-size: 25px;
+}
+a:hover{
+    font-weight: bold;
+    font-size: 30px;
+}

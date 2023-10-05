@@ -1,0 +1,53 @@
+<!-- 9. Create a web page with a registration form , using the CSS attribute selector change the text color of each input field to any other color. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-9</title>
+    <style>
+        .box-color input:focus {
+            background-color: #d4bb2d;
+        }
+
+        .box-color1 textarea:focus {
+            background-color: #d4bb2d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-color">
+        <div class="box-color1">
+            <fieldset>
+            <legend>Personal Inforamtion </legend>
+                    <form action="">
+                        <label for="FirstName">First Name:</label> </br> <input type="text" id="FirstName"> </br>
+                        <label for="LastName">Last Name:</label> </br> <input type="text" id="LastName"> </br>
+                        <label for="Password">Password: </label></br><input type="password" id="Password"> </br>
+                        <label for="Email">Email Id: </label></br><input type="email" id="Email" value="@gmail.com">
+                        </br>
+                        <label for="Message">Message</label> </br> <textarea name="" id="Message" cols="21"
+                            rows="10"></textarea> </br>
+                        <label for="Hobbies">Hobbies: </label></br><input type="checkbox" name="Hobbies" id="Cricket">
+                        <label for="Cricket">Cricket</label> <input type="checkbox" name="Hobbies" id="Hockey"> <label
+                            for="Hockey">Hockey</label> <input type="checkbox" name="Hobbies" id="Music"> <label
+                            for="Music">Music</label> </br>
+                        <label for="Language">Language</label> <select>
+                            <option value="select">None</option>
+                            <option value="">HTML</option>
+                            <option value="">CSS</option>
+                            <option value="">JavaScript</option>
+                        </select> </br>
+                        <input type="Submit" value="Submit"> <input type="Reset">
+                    </form>
+       </fieldset>
+                
+        </div>
+    </div>
+</body>
+
+</html>

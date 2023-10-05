@@ -1,0 +1,37 @@
+*{
+    background-color: #000000;
+    color: white;
+    margin: 0;
+}
+header h1{
+    text-align: center;
+    color: blue;
+}
+header p{
+    margin: 20px 20px;
+}   
+aside {
+     width: 200px;
+    height: 100vh;
+    margin-right: 40px;
+    float: left;
+    border: 2px solid;
+}
+
+aside img{
+    width: 200px;
+    
+}
+aside a {
+    display: block;
+    text-decoration: none;
+    border: 1px dashed;
+    padding: 9px 20px;
+}
+footer h1{
+    text-align: center;
+    color: blue;
+}
+footer p{
+    margin: 20px 20px;
+}

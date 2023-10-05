@@ -1,0 +1,37 @@
+.box{
+    border: 1px solid;
+    /* height: 90px; */
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+    background-image: linear-gradient(to right, #e0a7e0,purple);
+}
+
+.num_1{
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+
+}
+.num_2{
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+.num_3{
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+.num_4{
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+span{
+    color: white;
+}

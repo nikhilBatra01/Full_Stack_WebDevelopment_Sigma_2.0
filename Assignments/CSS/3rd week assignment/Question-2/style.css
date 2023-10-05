@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.container {
+    width: 80%;
+    border: 1px solid black;
+    background-color: #faf4ed;
+    margin:0 130px;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+.box > p{
+text-align: center;
+}
+.sub-container{
+    display: flex;
+    padding: 70px;
+}
+.f-course{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.f-course > a {
+    text-decoration: none;
+    color: #13139c;
+    margin: 10px auto;
+}
+.f-course > h5{
+    font-weight: bold;
+    margin: 15px 0;
+}
+.f-course > p{
+    font-size: 15px;
+}
+.s-course{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.s-course > a {
+    text-decoration: none;
+    color: #13139c;
+    margin: 10px auto;
+}
+.s-course > h5{
+    font-weight: bold;
+    margin: 15px 0;
+}
+.s-course > p{
+    font-size: 15px;
+}
+.t-course{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.t-course > a {
+    text-decoration: none;
+    color: #13139c;
+    margin: 10px auto;
+}
+.t-course > h5{
+    font-weight: bold;
+    margin: 15px 0;
+}
+.t-course > p{
+    font-size: 15px;
+}

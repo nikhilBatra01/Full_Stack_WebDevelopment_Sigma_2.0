@@ -1,0 +1,43 @@
+body{
+    margin: 0 200px;
+    background-color: #000000;
+    color: white;
+}
+.About-rate{    
+    border: 1px solid black;
+    background-color: red;
+    height: 40px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: -10px;
+    left: 200px;
+    right: 200px;
+}
+.About-rate > p{
+    font-weight: bold;
+    text-align: center; 
+    color: #000000;
+}
+.img > p{
+    /* font-size: 10px; */
+    font-weight: bold;
+    text-align: center;
+    color: #b97822;
+    margin-top: 50px;
+}
+.img{
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.About-course{
+    margin-top: 50px;
+}
+.About-course>h3{
+color: #da771c;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    background-color: #000000;
+    color: white;
+}
+aside img{
+    width:15vw;   
+}
+aside{
+    width: 15vw;
+    height: 100vh;
+    border: 1px solid #999797;
+    float: left;
+    margin-left: 9px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+aside a {
+    display: block;
+    border: 1px dashed ;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+h1{
+    color: #1515f8;
+    text-align: center;
+}
+p{
+    margin: 40px 10px;
+}
+footer img{
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+}
+.chatbot{
+    position: absolute;
+    top:76%;
+    left:93%;
+}

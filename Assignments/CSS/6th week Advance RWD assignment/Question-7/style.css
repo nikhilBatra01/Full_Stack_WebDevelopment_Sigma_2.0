@@ -1,0 +1,28 @@
+.box{
+    border: 1px solid;
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: none;
+    height: 20px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+   background-image: linear-gradient(to right,#b5b5f1,#4040c7);
+   animation: move 1s ease-in-out 0s infinite alternate-reverse;
+    color: white;
+    border-radius: 9px;
+}
+
+@keyframes move {
+    from{
+        transform: translateX(30px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}

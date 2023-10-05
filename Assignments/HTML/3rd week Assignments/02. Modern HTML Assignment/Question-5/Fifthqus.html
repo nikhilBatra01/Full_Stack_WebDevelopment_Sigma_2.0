@@ -1,0 +1,26 @@
+<!-- 5.Write a short note on the tab index. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-5</title>
+</head>
+<body>
+    <h1>Tab index.</h1>
+     <p>The tabindex global attribute allows developers to make HTML elements focusable, allow or prevent them from being sequentially focusable (usually with the Tab key, hence the name) and determine their relative ordering for sequential focus navigation.</p>   
+
+     <p>It accepts an integer as a value, with different results depending on the integer's value => </p>
+
+     <ul>
+         <li>tabindex="0" means that the element should be focusable in sequential keyboard navigation, after any positive tabindex values. The focus navigation order of these elements is defined by their order in the document source.
+        </li>
+         <li>A positive value means the element should be focusable in sequential keyboard navigation, with its order defined by the value of the number. That is, tabindex="4" is focused before tabindex="5" and tabindex="0", but after tabindex="3". If multiple elements share the same positive tabindex value, their order relative to each other follows their position in the document source. The maximum value for tabindex is 32767.
+        </li>
+         <li>If the tabindex attribute is included with no value set, whether the element is focusable is determined by the user agent.
+        </li>
+         <li>Some focusable HTML elements have a default tabindex value of 0 set under the hood by the user agent. These elements are an "a" or "area" with href attribute, "button", "frame".</li>
+     </ul>
+</body>
+</html>

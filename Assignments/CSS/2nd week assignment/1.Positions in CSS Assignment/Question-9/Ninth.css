@@ -1,0 +1,35 @@
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown span{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: hsl(0, 100%, 62%);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.option-bar{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    max-height: 150px;
+    overflow-y: scroll;
+    background-color: aliceblue;
+    padding-left: 10px;
+}
+a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000; 
+}
+
+.dropdown:hover .option-bar{
+        display: block;
+}

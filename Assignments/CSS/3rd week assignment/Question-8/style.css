@@ -1,0 +1,36 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272424;
+    position: relative;
+}
+.items {
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 100%;
+    position: absolute;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.image1 {
+    left: 60%;
+
+}
+
+.image2 {
+    left: 50%;
+}
+
+.image3 {
+    left: 40%;
+}
+
+.image4 {
+    left: 30%;
+}

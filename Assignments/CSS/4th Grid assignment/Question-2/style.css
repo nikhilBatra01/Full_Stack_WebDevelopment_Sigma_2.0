@@ -1,0 +1,48 @@
+.box{
+    width: 90vw;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,540px);
+    align-items: center;
+    justify-content: space-between;
+}
+.box img{
+    width: 80px;
+}
+.box a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+}
+.btn{
+    border: none;
+    width: 130px;
+    background-color: #278627;
+    padding: 10px 10px;
+    border-radius: 8px;
+    /* margin: 0px 10px; */
+}
+.container{
+    /* border: 1px solid; */
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.griditems{
+      padding: 20% 10%;
+}
+.image img{
+    width: 30vw;
+    height: 70vh;
+}
+.image{
+    background-color: #ffff00;  
+    margin: 5px 10px;
+}
+.btn1{
+    border: none;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+}
