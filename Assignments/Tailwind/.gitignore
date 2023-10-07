@@ -1,3 +1,7 @@
 node_modules
+<<<<<<< HEAD
 packages-lock.js
+=======
+package-lock.json
+>>>>>>> a21dcdc (upload new assignment)
 package.json

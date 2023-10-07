@@ -534,6 +534,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD
+=======
+.static {
+  position: static;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -552,6 +559,7 @@ video {
   margin-bottom: 1.25rem;
 }
 
+<<<<<<< HEAD
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -562,12 +570,27 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+=======
+.mr-10 {
+  margin-right: 2.5rem;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .flex {
   display: flex;
 }
@@ -576,6 +599,13 @@ video {
   display: grid;
 }
 
+<<<<<<< HEAD
+=======
+.h-14 {
+  height: 3.5rem;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .h-28 {
   height: 7rem;
 }
@@ -588,6 +618,17 @@ video {
   height: 15rem;
 }
 
+<<<<<<< HEAD
+=======
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[20\%\] {
+  height: 20%;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .h-\[20vh\] {
   height: 20vh;
 }
@@ -596,6 +637,7 @@ video {
   height: 50%;
 }
 
+<<<<<<< HEAD
 .h-\[240\] {
   height: 240;
 }
@@ -630,12 +672,17 @@ video {
 
 .h-\[100\%\] {
   height: 100%;
+=======
+.h-\[82\%\] {
+  height: 82%;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .h-\[90\%\] {
   height: 90%;
 }
 
+<<<<<<< HEAD
 .h-\[82\%\] {
   height: 82%;
 }
@@ -646,6 +693,22 @@ video {
 
 .h-\[75vh\] {
   height: 75vh;
+=======
+.h-\[\] {
+  height: ;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[25vh\] {
+  height: 25vh;
+}
+
+.w-14 {
+  width: 3.5rem;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .w-2\/5 {
@@ -656,6 +719,7 @@ video {
   width: 80%;
 }
 
+<<<<<<< HEAD
 .w-\[50vw\] {
   width: 50vw;
 }
@@ -708,12 +772,19 @@ video {
   width: 10vw;
 }
 
+=======
+>>>>>>> a21dcdc (upload new assignment)
 .w-\[100\%\] {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-\[40\] {
   width: 40;
+=======
+.w-\[32vw\] {
+  width: 32vw;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .w-\[40\%\] {
@@ -724,10 +795,108 @@ video {
   width: 45%;
 }
 
+<<<<<<< HEAD
+=======
+.w-\[50vw\] {
+  width: 50vw;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-\[23\] {
+  width: 23;
+}
+
+.w-\[23vw\] {
+  width: 23vw;
+}
+
+.w-\[28\] {
+  width: 28;
+}
+
+.w-\[28vw\] {
+  width: 28vw;
+}
+
+.w-\[29vw\] {
+  width: 29vw;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
+}
+
+.w-\[10vw\] {
+  width: 10vw;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[20vw\] {
+  width: 20vw;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[90vw\] {
+  width: 90vw;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+<<<<<<< HEAD
+=======
+.flex-col {
+  flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .items-center {
   align-items: center;
 }
@@ -736,34 +905,73 @@ video {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .justify-between {
   justify-content: space-between;
 }
 
+=======
+>>>>>>> a21dcdc (upload new assignment)
 .justify-evenly {
   justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
+=======
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
+<<<<<<< HEAD
 .border {
   border-width: 1px;
 }
 
 .border-2 {
   border-width: 2px;
+=======
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border {
+  border-width: 1px;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .border-4 {
   border-width: 4px;
 }
 
+<<<<<<< HEAD
+=======
+.border-2 {
+  border-width: 2px;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .border-l-2 {
   border-left-width: 2px;
 }
 
+<<<<<<< HEAD
 .border-l {
   border-left-width: 1px;
 }
@@ -772,6 +980,8 @@ video {
   border-left-width: 4px;
 }
 
+=======
+>>>>>>> a21dcdc (upload new assignment)
 .border-solid {
   border-style: solid;
 }
@@ -781,10 +991,48 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
+.bg-purple-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 245 255 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#192A56\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 42 86 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.bg-center {
+  background-position: center;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .p-5 {
   padding: 1.25rem;
 }
 
+<<<<<<< HEAD
 .p-6 {
   padding: 1.5rem;
 }
@@ -796,6 +1044,23 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
+=======
+.p-4 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .font-mono {
@@ -806,13 +1071,27 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+<<<<<<< HEAD
+=======
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 
+<<<<<<< HEAD
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
+=======
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+>>>>>>> a21dcdc (upload new assignment)
 }
 
 .font-bold {
@@ -823,6 +1102,13 @@ video {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
+=======
+.italic {
+  font-style: italic;
+}
+
+>>>>>>> a21dcdc (upload new assignment)
 .text-\[\#99AAAB\] {
   --tw-text-opacity: 1;
   color: rgb(153 170 171 / var(--tw-text-opacity));
@@ -836,4 +1122,12 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+<<<<<<< HEAD
+=======
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+>>>>>>> a21dcdc (upload new assignment)
 }
