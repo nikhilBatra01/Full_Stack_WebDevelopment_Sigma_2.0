@@ -1,0 +1,37 @@
+<!--Question-3. You are tasked with building a simple web counter that displays two buttons: "+" and "-". When the user clicks the "+" button, the counter should increment by one, and when the user clicks the "-" button, the counter should decrement by one. If the counter goes below zero, you must notify the user through an alert. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-5</title>
+    <style>
+        #countLabel{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Counter</h1>
+    <button id="increasebtn">+</button>
+    <label id="countLabel">0</label> 
+    <button id="decreasebtn">-</button>
+    <script>
+        let count = 0;
+        document.getElementById("increasebtn").addEventListener("click", function(){
+            count = count + 1
+            document.getElementById("countLabel").innerHTML = count;
+        })
+        document.getElementById("decreasebtn").addEventListener("click", function(){
+            count = count - 1
+            document.getElementById("countLabel").innerHTML = count;
+         if(count < 0){
+             alert("counter is going beyong 0")
+         }
+        })
+    </script>
+</body>
+</html>

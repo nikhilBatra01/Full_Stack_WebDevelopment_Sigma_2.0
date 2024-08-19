@@ -1,0 +1,27 @@
+<!-- Question-1. Your client needs a feature to upload a profile picture on their website. Your task is to create an "input type=file" element that allows users to select images. Once an image is uploaded,display a preview of the selected image below the file input. You are required to achieve this using JavaScript DOM manipulation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-1</title>
+</head>
+<body>
+    <div class="input">
+        <h1>Update Profile Picture</h1>
+        <label for="button" id="btn" >
+            <input type="file" value="Choose File" id="upload-icon">
+        </label>
+        <h3>Your Profile Picture</h3>
+        <img style="width: 500px; height: 300px;" src="" alt="No Profile Picture" id="icon">
+    </div> 
+</body>
+    <script>
+        document.getElementById("upload-icon").addEventListener('change',function(e){
+                const imgRef = document.getElementById("icon")
+                const file = e.target.files[0]                
+                imgRef.src = URL.createObjectURL(file) 
+        })
+    </script> 
+</html> 
